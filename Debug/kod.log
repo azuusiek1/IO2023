@@ -1,0 +1,211 @@
+﻿  Administrator.cpp
+C:\Users\wm51142\Documents\IOKod\kod\Pracownik.h(4,30): error C2504: „Uzytkownik”: klasa bazowa niezdefiniowana
+  Karta_Pacjenta.cpp
+C:\Users\wm51142\Documents\IOKod\kod\Pracownik.h(4,30): error C2504: „Uzytkownik”: klasa bazowa niezdefiniowana
+C:\Users\wm51142\Documents\IOKod\kod\Zwierze.h(15,9): error C3646: "wlasciciel": nieznany specyfikator przesłonięcia
+C:\Users\wm51142\Documents\IOKod\kod\Zwierze.h(15,19): error C4430: brak specyfikatora typu - założono, że int. Uwaga: C++ nie obsługuje domyślnie typu int
+C:\Users\wm51142\Documents\IOKod\kod\Zwierze.h(16,17): error C3646: "karta_pacjenta": nieznany specyfikator przesłonięcia
+C:\Users\wm51142\Documents\IOKod\kod\Zwierze.h(16,31): error C4430: brak specyfikatora typu - założono, że int. Uwaga: C++ nie obsługuje domyślnie typu int
+C:\Users\wm51142\Documents\IOKod\kod\Zwierze.h(39,9): error C3646: "getWlasciciel": nieznany specyfikator przesłonięcia
+C:\Users\wm51142\Documents\IOKod\kod\Zwierze.h(39,22): error C2059: błąd składniowy: „(”
+C:\Users\wm51142\Documents\IOKod\kod\Zwierze.h(39,24): error C2238: nieoczekiwany(e) token(y) poprzedzający(e) ";"
+C:\Users\wm51142\Documents\IOKod\kod\Zwierze.h(41,21): error C2061: błąd składniowy: identyfikator „Klient”
+C:\Users\wm51142\Documents\IOKod\kod\Zwierze.h(43,17): error C3646: "getKarta_pacjenta": nieznany specyfikator przesłonięcia
+C:\Users\wm51142\Documents\IOKod\kod\Zwierze.h(43,34): error C2059: błąd składniowy: „(”
+C:\Users\wm51142\Documents\IOKod\kod\Zwierze.h(43,36): error C2238: nieoczekiwany(e) token(y) poprzedzający(e) ";"
+C:\Users\wm51142\Documents\IOKod\kod\Zwierze.h(45,25): error C2061: błąd składniowy: identyfikator „Karta_Pacjenta”
+  Klient.cpp
+C:\Users\wm51142\Documents\IOKod\kod\Rachunek.h(7,9): error C3646: "klient": nieznany specyfikator przesłonięcia
+C:\Users\wm51142\Documents\IOKod\kod\Rachunek.h(7,15): error C4430: brak specyfikatora typu - założono, że int. Uwaga: C++ nie obsługuje domyślnie typu int
+C:\Users\wm51142\Documents\IOKod\kod\Rachunek.h(15,9): error C3646: "getKlient": nieznany specyfikator przesłonięcia
+C:\Users\wm51142\Documents\IOKod\kod\Rachunek.h(15,18): error C2059: błąd składniowy: „(”
+C:\Users\wm51142\Documents\IOKod\kod\Rachunek.h(15,20): error C2238: nieoczekiwany(e) token(y) poprzedzający(e) ";"
+C:\Users\wm51142\Documents\IOKod\kod\Rachunek.h(17,17): error C2061: błąd składniowy: identyfikator „Klient”
+C:\Users\wm51142\Documents\IOKod\kod\Wizyta.h(13,9): error C3646: "klient": nieznany specyfikator przesłonięcia
+C:\Users\wm51142\Documents\IOKod\kod\Wizyta.h(13,15): error C4430: brak specyfikatora typu - założono, że int. Uwaga: C++ nie obsługuje domyślnie typu int
+C:\Users\wm51142\Documents\IOKod\kod\Wizyta.h(14,10): error C3646: "zwierze": nieznany specyfikator przesłonięcia
+C:\Users\wm51142\Documents\IOKod\kod\Wizyta.h(14,17): error C4430: brak specyfikatora typu - założono, że int. Uwaga: C++ nie obsługuje domyślnie typu int
+C:\Users\wm51142\Documents\IOKod\kod\Wizyta.h(30,9): error C3646: "getKlient": nieznany specyfikator przesłonięcia
+C:\Users\wm51142\Documents\IOKod\kod\Wizyta.h(30,18): error C2059: błąd składniowy: „(”
+C:\Users\wm51142\Documents\IOKod\kod\Wizyta.h(30,20): error C2238: nieoczekiwany(e) token(y) poprzedzający(e) ";"
+C:\Users\wm51142\Documents\IOKod\kod\Wizyta.h(32,17): error C2061: błąd składniowy: identyfikator „Klient”
+C:\Users\wm51142\Documents\IOKod\kod\Wizyta.h(34,10): error C3646: "getZwierze": nieznany specyfikator przesłonięcia
+C:\Users\wm51142\Documents\IOKod\kod\Wizyta.h(34,20): error C2059: błąd składniowy: „(”
+C:\Users\wm51142\Documents\IOKod\kod\Wizyta.h(34,22): error C2238: nieoczekiwany(e) token(y) poprzedzający(e) ";"
+C:\Users\wm51142\Documents\IOKod\kod\Wizyta.h(36,18): error C2061: błąd składniowy: identyfikator „Zwierze”
+C:\Users\wm51142\Documents\IOKod\kod\Karta_Pacjenta.h(10,10): error C3646: "zwierze": nieznany specyfikator przesłonięcia
+C:\Users\wm51142\Documents\IOKod\kod\Karta_Pacjenta.h(10,17): error C4430: brak specyfikatora typu - założono, że int. Uwaga: C++ nie obsługuje domyślnie typu int
+C:\Users\wm51142\Documents\IOKod\kod\Karta_Pacjenta.h(19,10): error C3646: "getZwierze": nieznany specyfikator przesłonięcia
+C:\Users\wm51142\Documents\IOKod\kod\Karta_Pacjenta.h(19,20): error C2059: błąd składniowy: „(”
+C:\Users\wm51142\Documents\IOKod\kod\Karta_Pacjenta.h(19,22): error C2238: nieoczekiwany(e) token(y) poprzedzający(e) ";"
+C:\Users\wm51142\Documents\IOKod\kod\Karta_Pacjenta.h(21,18): error C2061: błąd składniowy: identyfikator „Zwierze”
+C:\Users\wm51142\Documents\IOKod\kod\Zwierze.h(15,9): error C3646: "wlasciciel": nieznany specyfikator przesłonięcia
+C:\Users\wm51142\Documents\IOKod\kod\Zwierze.h(15,19): error C4430: brak specyfikatora typu - założono, że int. Uwaga: C++ nie obsługuje domyślnie typu int
+C:\Users\wm51142\Documents\IOKod\kod\Zwierze.h(39,9): error C3646: "getWlasciciel": nieznany specyfikator przesłonięcia
+C:\Users\wm51142\Documents\IOKod\kod\Zwierze.h(39,22): error C2059: błąd składniowy: „(”
+C:\Users\wm51142\Documents\IOKod\kod\Zwierze.h(39,24): error C2238: nieoczekiwany(e) token(y) poprzedzający(e) ";"
+C:\Users\wm51142\Documents\IOKod\kod\Zwierze.h(41,21): error C2061: błąd składniowy: identyfikator „Klient”
+  kod.cpp
+C:\Users\wm51142\Documents\IOKod\kod\Rachunek.h(7,9): error C3646: "klient": nieznany specyfikator przesłonięcia
+C:\Users\wm51142\Documents\IOKod\kod\Rachunek.h(7,15): error C4430: brak specyfikatora typu - założono, że int. Uwaga: C++ nie obsługuje domyślnie typu int
+C:\Users\wm51142\Documents\IOKod\kod\Rachunek.h(15,9): error C3646: "getKlient": nieznany specyfikator przesłonięcia
+C:\Users\wm51142\Documents\IOKod\kod\Rachunek.h(15,18): error C2059: błąd składniowy: „(”
+C:\Users\wm51142\Documents\IOKod\kod\Rachunek.h(15,20): error C2238: nieoczekiwany(e) token(y) poprzedzający(e) ";"
+C:\Users\wm51142\Documents\IOKod\kod\Rachunek.h(17,17): error C2061: błąd składniowy: identyfikator „Klient”
+C:\Users\wm51142\Documents\IOKod\kod\Wizyta.h(13,9): error C3646: "klient": nieznany specyfikator przesłonięcia
+C:\Users\wm51142\Documents\IOKod\kod\Wizyta.h(13,15): error C4430: brak specyfikatora typu - założono, że int. Uwaga: C++ nie obsługuje domyślnie typu int
+C:\Users\wm51142\Documents\IOKod\kod\Wizyta.h(14,10): error C3646: "zwierze": nieznany specyfikator przesłonięcia
+C:\Users\wm51142\Documents\IOKod\kod\Wizyta.h(14,17): error C4430: brak specyfikatora typu - założono, że int. Uwaga: C++ nie obsługuje domyślnie typu int
+C:\Users\wm51142\Documents\IOKod\kod\Wizyta.h(30,9): error C3646: "getKlient": nieznany specyfikator przesłonięcia
+C:\Users\wm51142\Documents\IOKod\kod\Wizyta.h(30,18): error C2059: błąd składniowy: „(”
+C:\Users\wm51142\Documents\IOKod\kod\Wizyta.h(30,20): error C2238: nieoczekiwany(e) token(y) poprzedzający(e) ";"
+C:\Users\wm51142\Documents\IOKod\kod\Wizyta.h(32,17): error C2061: błąd składniowy: identyfikator „Klient”
+C:\Users\wm51142\Documents\IOKod\kod\Wizyta.h(34,10): error C3646: "getZwierze": nieznany specyfikator przesłonięcia
+C:\Users\wm51142\Documents\IOKod\kod\Wizyta.h(34,20): error C2059: błąd składniowy: „(”
+C:\Users\wm51142\Documents\IOKod\kod\Wizyta.h(34,22): error C2238: nieoczekiwany(e) token(y) poprzedzający(e) ";"
+C:\Users\wm51142\Documents\IOKod\kod\Wizyta.h(36,18): error C2061: błąd składniowy: identyfikator „Zwierze”
+C:\Users\wm51142\Documents\IOKod\kod\Karta_Pacjenta.h(10,10): error C3646: "zwierze": nieznany specyfikator przesłonięcia
+C:\Users\wm51142\Documents\IOKod\kod\Karta_Pacjenta.h(10,17): error C4430: brak specyfikatora typu - założono, że int. Uwaga: C++ nie obsługuje domyślnie typu int
+C:\Users\wm51142\Documents\IOKod\kod\Karta_Pacjenta.h(19,10): error C3646: "getZwierze": nieznany specyfikator przesłonięcia
+C:\Users\wm51142\Documents\IOKod\kod\Karta_Pacjenta.h(19,20): error C2059: błąd składniowy: „(”
+C:\Users\wm51142\Documents\IOKod\kod\Karta_Pacjenta.h(19,22): error C2238: nieoczekiwany(e) token(y) poprzedzający(e) ";"
+C:\Users\wm51142\Documents\IOKod\kod\Karta_Pacjenta.h(21,18): error C2061: błąd składniowy: identyfikator „Zwierze”
+C:\Users\wm51142\Documents\IOKod\kod\Zwierze.h(15,9): error C3646: "wlasciciel": nieznany specyfikator przesłonięcia
+C:\Users\wm51142\Documents\IOKod\kod\Zwierze.h(15,19): error C4430: brak specyfikatora typu - założono, że int. Uwaga: C++ nie obsługuje domyślnie typu int
+C:\Users\wm51142\Documents\IOKod\kod\Zwierze.h(39,9): error C3646: "getWlasciciel": nieznany specyfikator przesłonięcia
+C:\Users\wm51142\Documents\IOKod\kod\Zwierze.h(39,22): error C2059: błąd składniowy: „(”
+C:\Users\wm51142\Documents\IOKod\kod\Zwierze.h(39,24): error C2238: nieoczekiwany(e) token(y) poprzedzający(e) ";"
+C:\Users\wm51142\Documents\IOKod\kod\Zwierze.h(41,21): error C2061: błąd składniowy: identyfikator „Klient”
+  Magazyn.cpp
+  Pozycja_Magazynowa.cpp
+  Pracownik.cpp
+C:\Users\wm51142\Documents\IOKod\kod\Pracownik.h(4,30): error C2504: „Uzytkownik”: klasa bazowa niezdefiniowana
+  Rachunek.cpp
+C:\Users\wm51142\Documents\IOKod\kod\Rachunek.h(7,9): error C3646: "klient": nieznany specyfikator przesłonięcia
+C:\Users\wm51142\Documents\IOKod\kod\Rachunek.h(7,15): error C4430: brak specyfikatora typu - założono, że int. Uwaga: C++ nie obsługuje domyślnie typu int
+C:\Users\wm51142\Documents\IOKod\kod\Rachunek.h(11,12): error C3646: "wystawiajacy": nieznany specyfikator przesłonięcia
+C:\Users\wm51142\Documents\IOKod\kod\Rachunek.h(11,24): error C4430: brak specyfikatora typu - założono, że int. Uwaga: C++ nie obsługuje domyślnie typu int
+C:\Users\wm51142\Documents\IOKod\kod\Rachunek.h(12,9): error C3646: "komentarz": nieznany specyfikator przesłonięcia
+C:\Users\wm51142\Documents\IOKod\kod\Rachunek.h(12,18): error C4430: brak specyfikatora typu - założono, że int. Uwaga: C++ nie obsługuje domyślnie typu int
+C:\Users\wm51142\Documents\IOKod\kod\Rachunek.h(15,9): error C3646: "getKlient": nieznany specyfikator przesłonięcia
+C:\Users\wm51142\Documents\IOKod\kod\Rachunek.h(15,18): error C2059: błąd składniowy: „(”
+C:\Users\wm51142\Documents\IOKod\kod\Rachunek.h(15,20): error C2238: nieoczekiwany(e) token(y) poprzedzający(e) ";"
+C:\Users\wm51142\Documents\IOKod\kod\Rachunek.h(17,17): error C2061: błąd składniowy: identyfikator „Klient”
+C:\Users\wm51142\Documents\IOKod\kod\Rachunek.h(31,12): error C3646: "getWystawiajacy": nieznany specyfikator przesłonięcia
+C:\Users\wm51142\Documents\IOKod\kod\Rachunek.h(31,27): error C2059: błąd składniowy: „(”
+C:\Users\wm51142\Documents\IOKod\kod\Rachunek.h(31,29): error C2238: nieoczekiwany(e) token(y) poprzedzający(e) ";"
+C:\Users\wm51142\Documents\IOKod\kod\Rachunek.h(33,23): error C2061: błąd składniowy: identyfikator „Pracownik”
+C:\Users\wm51142\Documents\IOKod\kod\Rachunek.h(35,9): error C3646: "getKomentarz": nieznany specyfikator przesłonięcia
+C:\Users\wm51142\Documents\IOKod\kod\Rachunek.h(35,21): error C2059: błąd składniowy: „(”
+C:\Users\wm51142\Documents\IOKod\kod\Rachunek.h(35,23): error C2238: nieoczekiwany(e) token(y) poprzedzający(e) ";"
+C:\Users\wm51142\Documents\IOKod\kod\Rachunek.h(37,20): error C2061: błąd składniowy: identyfikator „string”
+C:\Users\wm51142\Documents\IOKod\kod\Wizyta.h(13,9): error C3646: "klient": nieznany specyfikator przesłonięcia
+C:\Users\wm51142\Documents\IOKod\kod\Wizyta.h(13,15): error C4430: brak specyfikatora typu - założono, że int. Uwaga: C++ nie obsługuje domyślnie typu int
+C:\Users\wm51142\Documents\IOKod\kod\Wizyta.h(14,10): error C3646: "zwierze": nieznany specyfikator przesłonięcia
+C:\Users\wm51142\Documents\IOKod\kod\Wizyta.h(14,17): error C4430: brak specyfikatora typu - założono, że int. Uwaga: C++ nie obsługuje domyślnie typu int
+C:\Users\wm51142\Documents\IOKod\kod\Wizyta.h(30,9): error C3646: "getKlient": nieznany specyfikator przesłonięcia
+C:\Users\wm51142\Documents\IOKod\kod\Wizyta.h(30,18): error C2059: błąd składniowy: „(”
+C:\Users\wm51142\Documents\IOKod\kod\Wizyta.h(30,20): error C2238: nieoczekiwany(e) token(y) poprzedzający(e) ";"
+C:\Users\wm51142\Documents\IOKod\kod\Wizyta.h(32,17): error C2061: błąd składniowy: identyfikator „Klient”
+C:\Users\wm51142\Documents\IOKod\kod\Wizyta.h(34,10): error C3646: "getZwierze": nieznany specyfikator przesłonięcia
+C:\Users\wm51142\Documents\IOKod\kod\Wizyta.h(34,20): error C2059: błąd składniowy: „(”
+C:\Users\wm51142\Documents\IOKod\kod\Wizyta.h(34,22): error C2238: nieoczekiwany(e) token(y) poprzedzający(e) ";"
+C:\Users\wm51142\Documents\IOKod\kod\Wizyta.h(36,18): error C2061: błąd składniowy: identyfikator „Zwierze”
+C:\Users\wm51142\Documents\IOKod\kod\Karta_Pacjenta.h(10,10): error C3646: "zwierze": nieznany specyfikator przesłonięcia
+C:\Users\wm51142\Documents\IOKod\kod\Karta_Pacjenta.h(10,17): error C4430: brak specyfikatora typu - założono, że int. Uwaga: C++ nie obsługuje domyślnie typu int
+C:\Users\wm51142\Documents\IOKod\kod\Karta_Pacjenta.h(19,10): error C3646: "getZwierze": nieznany specyfikator przesłonięcia
+C:\Users\wm51142\Documents\IOKod\kod\Karta_Pacjenta.h(19,20): error C2059: błąd składniowy: „(”
+C:\Users\wm51142\Documents\IOKod\kod\Karta_Pacjenta.h(19,22): error C2238: nieoczekiwany(e) token(y) poprzedzający(e) ";"
+C:\Users\wm51142\Documents\IOKod\kod\Karta_Pacjenta.h(21,18): error C2061: błąd składniowy: identyfikator „Zwierze”
+C:\Users\wm51142\Documents\IOKod\kod\Zwierze.h(15,9): error C3646: "wlasciciel": nieznany specyfikator przesłonięcia
+C:\Users\wm51142\Documents\IOKod\kod\Zwierze.h(15,19): error C4430: brak specyfikatora typu - założono, że int. Uwaga: C++ nie obsługuje domyślnie typu int
+C:\Users\wm51142\Documents\IOKod\kod\Zwierze.h(39,9): error C3646: "getWlasciciel": nieznany specyfikator przesłonięcia
+C:\Users\wm51142\Documents\IOKod\kod\Zwierze.h(39,22): error C2059: błąd składniowy: „(”
+C:\Users\wm51142\Documents\IOKod\kod\Zwierze.h(39,24): error C2238: nieoczekiwany(e) token(y) poprzedzający(e) ";"
+C:\Users\wm51142\Documents\IOKod\kod\Zwierze.h(41,21): error C2061: błąd składniowy: identyfikator „Klient”
+C:\Users\wm51142\Documents\IOKod\kod\Rachunek.cpp(4,18): error C2039: „getKlient”: nie jest składową elementu „Rachunek”
+C:\Users\wm51142\Documents\IOKod\kod\Rachunek.h(4): message : zobacz deklarację „Rachunek”
+C:\Users\wm51142\Documents\IOKod\kod\Rachunek.cpp(5,9): error C2355: „this”: Można tworzyć odwołania wyłącznie wewnątrz niestatycznych funkcji składowych lub niestatycznych inicjatorów składowych danych
+C:\Users\wm51142\Documents\IOKod\kod\Rachunek.cpp(8,41): error C2511: „void Rachunek::setKlient(Klient)”: Przeciążona funkcja składowa nie została znaleziona w „Rachunek”
+C:\Users\wm51142\Documents\IOKod\kod\Rachunek.h(4): message : zobacz deklarację „Rachunek”
+C:\Users\wm51142\Documents\IOKod\kod\Rachunek.cpp(9,2): error C2671: „Rachunek::setKlient”: Statyczne funkcje składowe nie mają wskaźników „this”
+C:\Users\wm51142\Documents\IOKod\kod\Rachunek.cpp(36,21): error C2039: „getWystawiajacy”: nie jest składową elementu „Rachunek”
+C:\Users\wm51142\Documents\IOKod\kod\Rachunek.h(4): message : zobacz deklarację „Rachunek”
+C:\Users\wm51142\Documents\IOKod\kod\Rachunek.cpp(37,9): error C2355: „this”: Można tworzyć odwołania wyłącznie wewnątrz niestatycznych funkcji składowych lub niestatycznych inicjatorów składowych danych
+C:\Users\wm51142\Documents\IOKod\kod\Rachunek.cpp(40,56): error C2511: „void Rachunek::setWystawiajacy(Pracownik)”: Przeciążona funkcja składowa nie została znaleziona w „Rachunek”
+C:\Users\wm51142\Documents\IOKod\kod\Rachunek.h(4): message : zobacz deklarację „Rachunek”
+C:\Users\wm51142\Documents\IOKod\kod\Rachunek.cpp(41,2): error C2671: „Rachunek::setWystawiajacy”: Statyczne funkcje składowe nie mają wskaźników „this”
+C:\Users\wm51142\Documents\IOKod\kod\Rachunek.cpp(44,18): error C2039: „getKomentarz”: nie jest składową elementu „Rachunek”
+C:\Users\wm51142\Documents\IOKod\kod\Rachunek.h(4): message : zobacz deklarację „Rachunek”
+C:\Users\wm51142\Documents\IOKod\kod\Rachunek.cpp(45,9): error C2355: „this”: Można tworzyć odwołania wyłącznie wewnątrz niestatycznych funkcji składowych lub niestatycznych inicjatorów składowych danych
+C:\Users\wm51142\Documents\IOKod\kod\Rachunek.cpp(48,47): error C2511: „void Rachunek::setKomentarz(std::string)”: Przeciążona funkcja składowa nie została znaleziona w „Rachunek”
+C:\Users\wm51142\Documents\IOKod\kod\Rachunek.h(4): message : zobacz deklarację „Rachunek”
+C:\Users\wm51142\Documents\IOKod\kod\Rachunek.cpp(49,2): error C2671: „Rachunek::setKomentarz”: Statyczne funkcje składowe nie mają wskaźników „this”
+  Recepta.cpp
+C:\Users\wm51142\Documents\IOKod\kod\Pracownik.h(4,30): error C2504: „Uzytkownik”: klasa bazowa niezdefiniowana
+  Skierowanie.cpp
+C:\Users\wm51142\Documents\IOKod\kod\Skierowanie.h(11,14): error C3646: "wystawiajacy": nieznany specyfikator przesłonięcia
+C:\Users\wm51142\Documents\IOKod\kod\Skierowanie.h(11,26): error C4430: brak specyfikatora typu - założono, że int. Uwaga: C++ nie obsługuje domyślnie typu int
+C:\Users\wm51142\Documents\IOKod\kod\Skierowanie.h(27,14): error C3646: "getWystawiajacy": nieznany specyfikator przesłonięcia
+C:\Users\wm51142\Documents\IOKod\kod\Skierowanie.h(27,29): error C2059: błąd składniowy: „(”
+C:\Users\wm51142\Documents\IOKod\kod\Skierowanie.h(27,31): error C2238: nieoczekiwany(e) token(y) poprzedzający(e) ";"
+C:\Users\wm51142\Documents\IOKod\kod\Skierowanie.h(29,23): error C2061: błąd składniowy: identyfikator „Specjalista”
+C:\Users\wm51142\Documents\IOKod\kod\Pracownik.h(4,30): error C2504: „Uzytkownik”: klasa bazowa niezdefiniowana
+C:\Users\wm51142\Documents\IOKod\kod\Skierowanie.cpp(27,26): error C2039: „getWystawiajacy”: nie jest składową elementu „Skierowanie”
+C:\Users\wm51142\Documents\IOKod\kod\Skierowanie.h(5): message : zobacz deklarację „Skierowanie”
+C:\Users\wm51142\Documents\IOKod\kod\Skierowanie.cpp(28,9): error C2355: „this”: Można tworzyć odwołania wyłącznie wewnątrz niestatycznych funkcji składowych lub niestatycznych inicjatorów składowych danych
+C:\Users\wm51142\Documents\IOKod\kod\Skierowanie.cpp(31,61): error C2511: „void Skierowanie::setWystawiajacy(Specjalista)”: Przeciążona funkcja składowa nie została znaleziona w „Skierowanie”
+C:\Users\wm51142\Documents\IOKod\kod\Skierowanie.h(5): message : zobacz deklarację „Skierowanie”
+C:\Users\wm51142\Documents\IOKod\kod\Skierowanie.cpp(32,2): error C2671: „Skierowanie::setWystawiajacy”: Statyczne funkcje składowe nie mają wskaźników „this”
+  Specjalista.cpp
+C:\Users\wm51142\Documents\IOKod\kod\Pracownik.h(4,30): error C2504: „Uzytkownik”: klasa bazowa niezdefiniowana
+  Uzytkownik.cpp
+  Wizyta.cpp
+C:\Users\wm51142\Documents\IOKod\kod\Pracownik.h(4,30): error C2504: „Uzytkownik”: klasa bazowa niezdefiniowana
+C:\Users\wm51142\Documents\IOKod\kod\Karta_Pacjenta.h(9,9): error C3646: "wizyty": nieznany specyfikator przesłonięcia
+C:\Users\wm51142\Documents\IOKod\kod\Karta_Pacjenta.h(9,15): error C4430: brak specyfikatora typu - założono, że int. Uwaga: C++ nie obsługuje domyślnie typu int
+C:\Users\wm51142\Documents\IOKod\kod\Karta_Pacjenta.h(10,10): error C3646: "zwierze": nieznany specyfikator przesłonięcia
+C:\Users\wm51142\Documents\IOKod\kod\Karta_Pacjenta.h(10,17): error C4430: brak specyfikatora typu - założono, że int. Uwaga: C++ nie obsługuje domyślnie typu int
+C:\Users\wm51142\Documents\IOKod\kod\Karta_Pacjenta.h(15,9): error C3646: "getWizyty": nieznany specyfikator przesłonięcia
+C:\Users\wm51142\Documents\IOKod\kod\Karta_Pacjenta.h(15,18): error C2059: błąd składniowy: „(”
+C:\Users\wm51142\Documents\IOKod\kod\Karta_Pacjenta.h(15,20): error C2238: nieoczekiwany(e) token(y) poprzedzający(e) ";"
+C:\Users\wm51142\Documents\IOKod\kod\Karta_Pacjenta.h(17,17): error C2061: błąd składniowy: identyfikator „Wizyta”
+C:\Users\wm51142\Documents\IOKod\kod\Karta_Pacjenta.h(19,10): error C3646: "getZwierze": nieznany specyfikator przesłonięcia
+C:\Users\wm51142\Documents\IOKod\kod\Karta_Pacjenta.h(19,20): error C2059: błąd składniowy: „(”
+C:\Users\wm51142\Documents\IOKod\kod\Karta_Pacjenta.h(19,22): error C2238: nieoczekiwany(e) token(y) poprzedzający(e) ";"
+C:\Users\wm51142\Documents\IOKod\kod\Karta_Pacjenta.h(21,18): error C2061: błąd składniowy: identyfikator „Zwierze”
+C:\Users\wm51142\Documents\IOKod\kod\Zwierze.h(15,9): error C3646: "wlasciciel": nieznany specyfikator przesłonięcia
+C:\Users\wm51142\Documents\IOKod\kod\Zwierze.h(15,19): error C4430: brak specyfikatora typu - założono, że int. Uwaga: C++ nie obsługuje domyślnie typu int
+C:\Users\wm51142\Documents\IOKod\kod\Zwierze.h(39,9): error C3646: "getWlasciciel": nieznany specyfikator przesłonięcia
+C:\Users\wm51142\Documents\IOKod\kod\Zwierze.h(39,22): error C2059: błąd składniowy: „(”
+C:\Users\wm51142\Documents\IOKod\kod\Zwierze.h(39,24): error C2238: nieoczekiwany(e) token(y) poprzedzający(e) ";"
+C:\Users\wm51142\Documents\IOKod\kod\Zwierze.h(41,21): error C2061: błąd składniowy: identyfikator „Klient”
+  Zwierze.cpp
+C:\Users\wm51142\Documents\IOKod\kod\Klient.h(9,14): error C2065: "Zwierze": niezadeklarowany identyfikator
+C:\Users\wm51142\Documents\IOKod\kod\Klient.h(9,7): error C2923: "std::vector": "Zwierze" nie jest prawidłowy argument typu szablon dla parametru "_Ty"
+C:\Users\wm51142\Documents\IOKod\kod\Klient.h(9): message : zobacz deklarację „Zwierze”
+C:\Users\wm51142\Documents\IOKod\kod\Klient.h(9,7): error C2976: "std::vector": za mało argumentów szablon
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\include\vector(430): message : zobacz deklarację „std::vector”
+C:\Users\wm51142\Documents\IOKod\kod\Klient.h(11,14): error C2065: "Zwierze": niezadeklarowany identyfikator
+C:\Users\wm51142\Documents\IOKod\kod\Klient.h(11,7): error C2923: "std::vector": "Zwierze" nie jest prawidłowy argument typu szablon dla parametru "_Ty"
+C:\Users\wm51142\Documents\IOKod\kod\Klient.h(11): message : zobacz deklarację „Zwierze”
+C:\Users\wm51142\Documents\IOKod\kod\Klient.h(11,7): error C2976: "std::vector": za mało argumentów szablon
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\include\vector(430): message : zobacz deklarację „std::vector”
+C:\Users\wm51142\Documents\IOKod\kod\Klient.h(13,32): error C2065: "Zwierze": niezadeklarowany identyfikator
+C:\Users\wm51142\Documents\IOKod\kod\Klient.h(13,25): error C2923: "std::vector": "Zwierze" nie jest prawidłowy argument typu szablon dla parametru "_Ty"
+C:\Users\wm51142\Documents\IOKod\kod\Klient.h(13): message : zobacz deklarację „Zwierze”
+C:\Users\wm51142\Documents\IOKod\kod\Klient.h(13,25): error C2976: "std::vector": za mało argumentów szablon
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\include\vector(430): message : zobacz deklarację „std::vector”
+C:\Users\wm51142\Documents\IOKod\kod\Wizyta.h(14,10): error C3646: "zwierze": nieznany specyfikator przesłonięcia
+C:\Users\wm51142\Documents\IOKod\kod\Wizyta.h(14,17): error C4430: brak specyfikatora typu - założono, że int. Uwaga: C++ nie obsługuje domyślnie typu int
+C:\Users\wm51142\Documents\IOKod\kod\Wizyta.h(34,10): error C3646: "getZwierze": nieznany specyfikator przesłonięcia
+C:\Users\wm51142\Documents\IOKod\kod\Wizyta.h(34,20): error C2059: błąd składniowy: „(”
+C:\Users\wm51142\Documents\IOKod\kod\Wizyta.h(34,22): error C2238: nieoczekiwany(e) token(y) poprzedzający(e) ";"
+C:\Users\wm51142\Documents\IOKod\kod\Wizyta.h(36,18): error C2061: błąd składniowy: identyfikator „Zwierze”
+C:\Users\wm51142\Documents\IOKod\kod\Karta_Pacjenta.h(10,10): error C3646: "zwierze": nieznany specyfikator przesłonięcia
+C:\Users\wm51142\Documents\IOKod\kod\Karta_Pacjenta.h(10,17): error C4430: brak specyfikatora typu - założono, że int. Uwaga: C++ nie obsługuje domyślnie typu int
+C:\Users\wm51142\Documents\IOKod\kod\Karta_Pacjenta.h(19,10): error C3646: "getZwierze": nieznany specyfikator przesłonięcia
+C:\Users\wm51142\Documents\IOKod\kod\Karta_Pacjenta.h(19,20): error C2059: błąd składniowy: „(”
+C:\Users\wm51142\Documents\IOKod\kod\Karta_Pacjenta.h(19,22): error C2238: nieoczekiwany(e) token(y) poprzedzający(e) ";"
+C:\Users\wm51142\Documents\IOKod\kod\Karta_Pacjenta.h(21,18): error C2061: błąd składniowy: identyfikator „Zwierze”
+  Generowanie kodu...
