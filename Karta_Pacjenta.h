@@ -1,14 +1,16 @@
-#ifndef KARTA_PACJENTA_H
-#define KARTA_PACJENTA_H
-#include "Wizyta.h"
-#include "Zwierze.h"
+#pragma once
 #include <string>
+#include "Zwierze.h"
+#include "Wizyta.h"
+
+class Zwierze;
+class Wizyta;
 class Karta_Pacjenta {
 
 private:
 	Wizyta wizyty;
 	Zwierze zwierze;
-	int data_utworzenia;
+	int32_t data_utworzenia;
 	std::string komentarz;
 
 public:
@@ -20,13 +22,11 @@ public:
 
 	void setZwierze(Zwierze zwierze);
 
-	int getData_utworzenia();
+	int32_t getData_utworzenia();
 
-	void setData_utworzenia(int data_utworzenia);
+	void setData_utworzenia(int32_t data_utworzenia);
 
 	std::string getKomentarz();
 
 	void setKomentarz(std::string komentarz);
 };
-
-#endif

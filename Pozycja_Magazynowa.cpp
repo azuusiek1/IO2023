@@ -1,18 +1,18 @@
 #include "Pozycja_Magazynowa.h"
 #include <string>
-int Pozycja_Magazynowa::getIdentyfikator() {
+int32_t Pozycja_Magazynowa::getIdentyfikator() {
 	return this->identyfikator;
 }
 
-void Pozycja_Magazynowa::setIdentyfikator(int identyfikator) {
+void Pozycja_Magazynowa::setIdentyfikator(int32_t identyfikator) {
 	this->identyfikator = identyfikator;
 }
 
-int Pozycja_Magazynowa::getIlosc() {
+int32_t Pozycja_Magazynowa::getIlosc() {
 	return this->ilosc;
 }
 
-void Pozycja_Magazynowa::setIlosc(int ilosc) {
+void Pozycja_Magazynowa::setIlosc(int32_t ilosc) {
 	this->ilosc = ilosc;
 }
 
@@ -40,11 +40,11 @@ void Pozycja_Magazynowa::setCena_zakupu(float cena_zakupu) {
 	this->cena_zakupu = cena_zakupu;
 }
 
-int Pozycja_Magazynowa::getDo_zamowienia() {
+int32_t Pozycja_Magazynowa::getDo_zamowienia() {
 	return this->do_zamowienia;
 }
 
-void Pozycja_Magazynowa::setDo_zamowienia(int do_zamowienia) {
+void Pozycja_Magazynowa::setDo_zamowienia(int32_t do_zamowienia) {
 	this->do_zamowienia = do_zamowienia;
 }
 

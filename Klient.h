@@ -1,7 +1,7 @@
-#ifndef KLIENT_H
-#define KLIENT_H
+#pragma once
 #include "Uzytkownik.h"
 #include "Zwierze.h"
+class Zwierze;
 #include<vector>
 class Klient : Uzytkownik {
 
@@ -12,5 +12,3 @@ public:
 
 	void setZwierzeta(std::vector<Zwierze>);
 };
-
-#endif

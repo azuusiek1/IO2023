@@ -5,7 +5,7 @@
 #include "Klient.h"
 #include <vector>
 
-int main()
+int32_t main()
 {
     Klient* klient = new Klient();
     std::vector<Zwierze> zwierzeta;
@@ -13,7 +13,7 @@ int main()
     zwierze.setImie("Pusia");
     zwierzeta.push_back(zwierze);
     klient->setZwierzeta(zwierzeta);
-    int i = 0;
+    int32_t i = 0;
     for (auto zwierze : klient->getZwierzeta()) {
         i++;
         std::string ret = "Zwierze " + std::to_string(i) + ", imie: " + zwierze.getImie();

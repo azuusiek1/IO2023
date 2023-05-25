@@ -9,27 +9,27 @@ void Recepta::setLeki(string leki) {
 	this->leki = leki;
 }
 
-int Recepta::getKod() {
+int32_t Recepta::getKod() {
 	return this->kod;
 }
 
-void Recepta::setKod(int kod) {
+void Recepta::setKod(int32_t kod) {
 	this->kod = kod;
 }
 
-int Recepta::getData_waznosci() {
+int32_t Recepta::getData_waznosci() {
 	return this->data_waznosci;
 }
 
-void Recepta::setData_waznosci(int data_waznosci) {
+void Recepta::setData_waznosci(int32_t data_waznosci) {
 	this->data_waznosci = data_waznosci;
 }
 
-int Recepta::getRefundacja() {
+int32_t Recepta::getRefundacja() {
 	return this->refundacja;
 }
 
-void Recepta::setRefundacja(int refundacja) {
+void Recepta::setRefundacja(int32_t refundacja) {
 	this->refundacja = refundacja;
 }
 
@@ -41,11 +41,11 @@ void Recepta::setWystawiajacy(Specjalista wystawiajacy) {
 	this->wystawiajacy = wystawiajacy;
 }
 
-int Recepta::getData_wystawienia() {
+int32_t Recepta::getData_wystawienia() {
 	return this->data_wystawienia;
 }
 
-void Recepta::setData_wystawienia(int data_wystawienia) {
+void Recepta::setData_wystawienia(int32_t data_wystawienia) {
 	this->data_wystawienia = data_wystawienia;
 }
 

@@ -16,11 +16,11 @@ void Karta_Pacjenta::setZwierze(Zwierze zwierze) {
 	this->zwierze = zwierze;
 }
 
-int Karta_Pacjenta::getData_utworzenia() {
+int32_t Karta_Pacjenta::getData_utworzenia() {
 	return this->data_utworzenia;
 }
 
-void Karta_Pacjenta::setData_utworzenia(int data_utworzenia) {
+void Karta_Pacjenta::setData_utworzenia(int32_t data_utworzenia) {
 	this->data_utworzenia = data_utworzenia;
 }
 

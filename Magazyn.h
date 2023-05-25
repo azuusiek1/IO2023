@@ -1,5 +1,4 @@
-#ifndef MAGAZYN_H
-#define MAGAZYN_H
+#pragma once
 #include "Pozycja_Magazynowa.h"
 class Magazyn {
 
@@ -12,4 +11,3 @@ public:
 	void setPozycje(Pozycja_Magazynowa pozycje);
 };
 
-#endif

@@ -1,28 +1,28 @@
-#ifndef ZWIERZE_H
-#define ZWIERZE_H
+#pragma once
 #include <string>
 #include "Klient.h"
 #include "Karta_Pacjenta.h"
 using namespace std;
+class Klient;
+class Karta_Pacjenta;
 class Zwierze {
-
-private:
+	
 	string imie;
-	int id;
+	int32_t id;
 	string gatunek;
 	string rasa;
-	int data_ur;
-	Klient wlasciciel;
-	Karta_Pacjenta karta_pacjenta;
+	int32_t data_ur;
+	Klient* wlasciciel;
+	Karta_Pacjenta* karta_pacjenta;
 
 public:
 	string getImie();
 
 	void setImie(string imie_zwierzecia);
 
-	int getId();
+	int32_t getId();
 
-	void setId(int id);
+	void setId(int32_t id);
 
 	string getGatunek();
 
@@ -32,17 +32,15 @@ public:
 
 	void setRasa(string rasa);
 
-	int getData_ur();
+	int32_t getData_ur();
 
-	void setData_ur(int data_ur);
+	void setData_ur(int32_t data_ur);
 
-	Klient getWlasciciel();
+	Klient* getWlasciciel();
 
-	void setWlasciciel(Klient wlasciciel);
+	void setWlasciciel(Klient* wlasciciel);
 
-	Karta_Pacjenta getKarta_pacjenta();
+	Karta_Pacjenta* getKarta_pacjenta();
 
-	void setKarta_pacjenta(Karta_Pacjenta karta_pacjenta);
+	void setKarta_pacjenta(Karta_Pacjenta* karta_pacjenta);
 };
-
-#endif

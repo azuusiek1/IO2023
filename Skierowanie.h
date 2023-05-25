@@ -1,13 +1,14 @@
-#ifndef SKIEROWANIE_H
-#define SKIEROWANIE_H
+#pragma once
 #include <string>
+#include "Specjalista.h"
+class Specjalista;
 using namespace std;
 class Skierowanie {
 
 private:
 	string poradnia;
-	int data_wystawienia;
-	int data_waznosci;
+	int32_t data_wystawienia;
+	int32_t data_waznosci;
 	Specjalista wystawiajacy;
 	string przyczyna;
 
@@ -16,13 +17,13 @@ public:
 
 	void setPoradnia(string poradnia);
 
-	int getData_wystawienia();
+	int32_t getData_wystawienia();
 
-	void setData_wystawienia(int data_wystawienia);
+	void setData_wystawienia(int32_t data_wystawienia);
 
-	int getData_waznosci();
+	int32_t getData_waznosci();
 
-	void setData_waznosci(int data_waznosci);
+	void setData_waznosci(int32_t data_waznosci);
 
 	Specjalista getWystawiajacy();
 
@@ -32,5 +33,3 @@ public:
 
 	void setPrzyczyna(string przyczyna);
 };
-
-#endif

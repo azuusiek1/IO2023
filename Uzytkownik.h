@@ -1,11 +1,10 @@
-#ifndef UZYTKOWNIK_H
-#define UZYTKOWNIK_H
+#pragma once
 #include <string>
 using namespace std;
 class Uzytkownik {
 
 private:
-	int id;
+	int32_t id;
 	string imie;
 	string nazwisko;
 	string pesel;
@@ -43,5 +42,3 @@ public:
 
 	void setHaslo(string haslo);
 };
-
-#endif

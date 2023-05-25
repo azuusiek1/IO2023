@@ -1,5 +1,4 @@
-#ifndef SPECJALISTA_H
-#define SPECJALISTA_H
+#pragma once
 #include "Pracownik.h"
 #include <string>
 using namespace std;
@@ -12,5 +11,3 @@ public:
 
 	void setSpecjalizacja(string specjalizacja);
 };
-
-#endif

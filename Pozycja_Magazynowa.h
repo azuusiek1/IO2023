@@ -1,25 +1,24 @@
-#ifndef POZYCJA_MAGAZYNOWA_H
-#define POZYCJA_MAGAZYNOWA_H
+#pragma once
 #include <string>
 class Pozycja_Magazynowa {
 
 private:
-	int identyfikator;
-	int ilosc;
+	int32_t identyfikator;
+	int32_t ilosc;
 	std::string nazwa;
 	std::string producent;
 	float cena_zakupu;
-	int do_zamowienia;
+	int32_t do_zamowienia;
 	std::string typ;
 
 public:
-	int getIdentyfikator();
+	int32_t getIdentyfikator();
 
-	void setIdentyfikator(int identyfikator);
+	void setIdentyfikator(int32_t identyfikator);
 
-	int getIlosc();
+	int32_t getIlosc();
 
-	void setIlosc(int ilosc);
+	void setIlosc(int32_t ilosc);
 
 	std::string getNazwa();
 
@@ -33,13 +32,11 @@ public:
 
 	void setCena_zakupu(float cena_zakupu);
 
-	int getDo_zamowienia();
+	int32_t getDo_zamowienia();
 
-	void setDo_zamowienia(int do_zamowienia);
+	void setDo_zamowienia(int32_t do_zamowienia);
 
 	std::string getTyp();
 
 	void setTyp(std::string typ);
 };
-
-#endif

@@ -1,17 +1,17 @@
-#ifndef RECEPTA_H
-#define RECEPTA_H
+#pragma once
 #include <string>
 #include <vector>
 #include "Specjalista.h"
+class Specjalista;
 class Recepta {
 
 private:
 	std::string leki;
-	int kod;
-	int data_waznosci;
-	int refundacja;
+	int32_t kod;
+	int32_t data_waznosci;
+	int32_t refundacja;
 	Specjalista wystawiajacy;
-	int data_wystawienia;
+	int32_t data_wystawienia;
 	std::string posiadacz_zwierzecia;
 
 public:
@@ -19,29 +19,27 @@ public:
 
 	void setLeki(std::string leki);
 
-	int getKod();
+	int32_t getKod();
 
-	void setKod(int kod);
+	void setKod(int32_t kod);
 
-	int getData_waznosci();
+	int32_t getData_waznosci();
 
-	void setData_waznosci(int data_waznosci);
+	void setData_waznosci(int32_t data_waznosci);
 
-	int getRefundacja();
+	int32_t getRefundacja();
 
-	void setRefundacja(int refundacja);
+	void setRefundacja(int32_t refundacja);
 
 	Specjalista getWystawiajacy();
 
 	void setWystawiajacy(Specjalista wystawiajacy);
 
-	int getData_wystawienia();
+	int32_t getData_wystawienia();
 
-	void setData_wystawienia(int data_wystawienia);
+	void setData_wystawienia(int32_t data_wystawienia);
 
 	void setPosiadacz_zwierzecia(std::string posiadacz_zwierzecia);
 
 	std::string getPosiadacz_zwierzecia();
 };
-
-#endif

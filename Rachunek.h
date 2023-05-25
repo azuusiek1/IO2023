@@ -1,32 +1,35 @@
-#ifndef RACHUNEK_H
-#define RACHUNEK_H
-
+#pragma once
+#include "Klient.h"
+#include "Pracownik.h"
+class Klient;
+class Pracownik;
 class Rachunek {
 
 private:
 	Klient klient;
-	int data_wystawienia;
-	int data_oplacenia;
-	int kwota;
+	int32_t data_wystawienia;
+	int32_t data_oplacenia;
+	int32_t kwota;
 	Pracownik wystawiajacy;
 	string komentarz;
 
 public:
+	Rachunek();
 	Klient getKlient();
 
 	void setKlient(Klient klient);
 
-	int getData_wystawienia();
+	int32_t getData_wystawienia();
 
-	void setData_wystawienia(int data_wystawienia);
+	void setData_wystawienia(int32_t data_wystawienia);
 
-	int getData_oplacenia();
+	int32_t getData_oplacenia();
 
-	void setData_oplacenia(int data_oplacenia);
+	void setData_oplacenia(int32_t data_oplacenia);
 
-	int getKwota();
+	int32_t getKwota();
 
-	void setKwota(int kwota);
+	void setKwota(int32_t kwota);
 
 	Pracownik getWystawiajacy();
 
@@ -36,5 +39,3 @@ public:
 
 	void setKomentarz(string komentarz);
 };
-
-#endif

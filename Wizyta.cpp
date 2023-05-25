@@ -7,15 +7,15 @@ void Wizyta::getId() {
 	throw "Not yet implemented";
 }
 
-void Wizyta::setId(int id) {
+void Wizyta::setId(int32_t id) {
 	this->id = id;
 }
 
-int Wizyta::getData_wizyty() {
+int32_t Wizyta::getData_wizyty() {
 	return this->data_wizyty;
 }
 
-void Wizyta::setData_wizyty(int data_wizyty) {
+void Wizyta::setData_wizyty(int32_t data_wizyty) {
 	this->data_wizyty = data_wizyty;
 }
 
@@ -59,11 +59,11 @@ void Wizyta::setSpecjalista(Specjalista specjalista) {
 	this->specjalista = specjalista;
 }
 
-int Wizyta::getData_zakonczenia() {
+int32_t Wizyta::getData_zakonczenia() {
 	return this->data_zakonczenia;
 }
 
-void Wizyta::setData_zakonczenia(int data_zakonczenia) {
+void Wizyta::setData_zakonczenia(int32_t data_zakonczenia) {
 	this->data_zakonczenia = data_zakonczenia;
 }
 

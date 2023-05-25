@@ -1,20 +1,17 @@
-#ifndef ADMINISTRATOR_H
-#define ADMINISTRATOR_H
+#pragma once
 #include "Pracownik.h"
 class Administrator : Pracownik {
 
 private:
-	int dzial;
-	int uprawnienia;
+	int32_t dzial;
+	int32_t uprawnienia;
 
 public:
-	int getDzial();
+	int32_t getDzial();
 
-	void setDzial(int dzial);
+	void setDzial(int32_t dzial);
 
-	int getUprawnienia();
+	int32_t getUprawnienia();
 
-	void setUprawnienia(int uprawnienia);
+	void setUprawnienia(int32_t uprawnienia);
 };
-
-#endif
