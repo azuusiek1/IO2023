@@ -1,28 +1,5 @@
-﻿  Administrator.cpp
-  Karta_Pacjenta.cpp
-  Klient.cpp
-C:\Users\wm51142\Documents\IOKod\repo\IO2023\Rachunek.h(9,9): error C2079: "Rachunek::klient" używa niezdefiniowanego class "Klient"
-C:\Users\wm51142\Documents\IOKod\repo\IO2023\Wizyta.h(20,9): error C2079: "Wizyta::klient" używa niezdefiniowanego class "Klient"
-C:\Users\wm51142\Documents\IOKod\repo\IO2023\Wizyta.h(21,10): error C2079: "Wizyta::zwierze" używa niezdefiniowanego class "Zwierze"
-C:\Users\wm51142\Documents\IOKod\repo\IO2023\Karta_Pacjenta.h(12,10): error C2079: "Karta_Pacjenta::zwierze" używa niezdefiniowanego class "Zwierze"
-  kod.cpp
-C:\Users\wm51142\Documents\IOKod\repo\IO2023\Rachunek.h(9,9): error C2079: "Rachunek::klient" używa niezdefiniowanego class "Klient"
-C:\Users\wm51142\Documents\IOKod\repo\IO2023\Wizyta.h(20,9): error C2079: "Wizyta::klient" używa niezdefiniowanego class "Klient"
-C:\Users\wm51142\Documents\IOKod\repo\IO2023\Wizyta.h(21,10): error C2079: "Wizyta::zwierze" używa niezdefiniowanego class "Zwierze"
-C:\Users\wm51142\Documents\IOKod\repo\IO2023\Karta_Pacjenta.h(12,10): error C2079: "Karta_Pacjenta::zwierze" używa niezdefiniowanego class "Zwierze"
-  Pracownik.cpp
-  Rachunek.cpp
-C:\Users\wm51142\Documents\IOKod\repo\IO2023\Wizyta.h(20,9): error C2079: "Wizyta::klient" używa niezdefiniowanego class "Klient"
-C:\Users\wm51142\Documents\IOKod\repo\IO2023\Wizyta.h(21,10): error C2079: "Wizyta::zwierze" używa niezdefiniowanego class "Zwierze"
-C:\Users\wm51142\Documents\IOKod\repo\IO2023\Wizyta.h(22,11): error C2079: "Wizyta::rachunek" używa niezdefiniowanego class "Rachunek"
-C:\Users\wm51142\Documents\IOKod\repo\IO2023\Karta_Pacjenta.h(12,10): error C2079: "Karta_Pacjenta::zwierze" używa niezdefiniowanego class "Zwierze"
-  Recepta.cpp
-  Skierowanie.cpp
-  Specjalista.cpp
-  Wizyta.cpp
-C:\Users\wm51142\Documents\IOKod\repo\IO2023\Karta_Pacjenta.h(11,9): error C2079: "Karta_Pacjenta::wizyty" używa niezdefiniowanego class "Wizyta"
-C:\Users\wm51142\Documents\IOKod\repo\IO2023\Karta_Pacjenta.h(12,10): error C2079: "Karta_Pacjenta::zwierze" używa niezdefiniowanego class "Zwierze"
-  Zwierze.cpp
-C:\Users\wm51142\Documents\IOKod\repo\IO2023\Wizyta.h(21,10): error C2079: "Wizyta::zwierze" używa niezdefiniowanego class "Zwierze"
-C:\Users\wm51142\Documents\IOKod\repo\IO2023\Karta_Pacjenta.h(12,10): error C2079: "Karta_Pacjenta::zwierze" używa niezdefiniowanego class "Zwierze"
-  Generowanie kodu...
+﻿  kod.cpp
+C:\Users\wm51142\Documents\IOKod\repo\IO2023\kod.cpp(148,40): warning C4244: "argument": konwersja z "time_t" do "int32_t", możliwa utrata danych
+C:\Users\wm51142\Documents\IOKod\repo\IO2023\kod.cpp(248,39): warning C4244: "inicjowanie": konwersja z "time_t" do "int32_t", możliwa utrata danych
+C:\Users\wm51142\Documents\IOKod\repo\IO2023\kod.cpp(271,74): warning C4244: "argument": konwersja z "time_t" do "long", możliwa utrata danych
+  kod.vcxproj -> C:\Users\wm51142\Documents\IOKod\repo\IO2023\x64\Debug\kod.exe

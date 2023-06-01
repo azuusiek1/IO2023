@@ -19,43 +19,43 @@ void Wizyta::setData_wizyty(int32_t data_wizyty) {
 	this->data_wizyty = data_wizyty;
 }
 
-Klient Wizyta::getKlient() {
+Klient* Wizyta::getKlient() {
 	return this->klient;
 }
 
-void Wizyta::setKlient(Klient klient) {
+void Wizyta::setKlient(Klient* klient) {
 	this->klient = klient;
 }
 
-Zwierze Wizyta::getZwierze() {
+Zwierze* Wizyta::getZwierze() {
 	return this->zwierze;
 }
 
-void Wizyta::setZwierze(Zwierze zwierze) {
+void Wizyta::setZwierze(Zwierze* zwierze) {
 	this->zwierze = zwierze;
 }
 
-Rachunek Wizyta::getRachunek() {
+Rachunek* Wizyta::getRachunek() {
 	return this->rachunek;
 }
 
-void Wizyta::setRachunek(Rachunek rachunek) {
+void Wizyta::setRachunek(Rachunek* rachunek) {
 	this->rachunek = rachunek;
 }
 
-Recepta Wizyta::getRecepta() {
+Recepta* Wizyta::getRecepta() {
 	return this->recepta;
 }
 
-void Wizyta::setRecepta(Recepta recepta) {
+void Wizyta::setRecepta(Recepta* recepta) {
 	this->recepta = recepta;
 }
 
-Specjalista Wizyta::getSpecjalista() {
+Specjalista* Wizyta::getSpecjalista() {
 	return this->specjalista;
 }
 
-void Wizyta::setSpecjalista(Specjalista specjalista) {
+void Wizyta::setSpecjalista(Specjalista* specjalista) {
 	this->specjalista = specjalista;
 }
 
@@ -67,10 +67,10 @@ void Wizyta::setData_zakonczenia(int32_t data_zakonczenia) {
 	this->data_zakonczenia = data_zakonczenia;
 }
 
-Skierowanie Wizyta::getSkierowanie() {
+Skierowanie* Wizyta::getSkierowanie() {
 	return this->skierowanie;
 }
 
-void Wizyta::setSkierowanie(Skierowanie skierowanie) {
+void Wizyta::setSkierowanie(Skierowanie* skierowanie) {
 	this->skierowanie = skierowanie;
 }

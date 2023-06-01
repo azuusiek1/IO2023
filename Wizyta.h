@@ -17,13 +17,13 @@ class Wizyta {
 private:
 	int32_t id;
 	int32_t data_wizyty;
-	Klient klient;
-	Zwierze zwierze;
-	Rachunek rachunek;
-	Recepta recepta;
-	Specjalista specjalista;
+	Klient* klient;
+	Zwierze* zwierze;
+	Rachunek* rachunek;
+	Recepta* recepta;
+	Specjalista* specjalista;
 	int32_t data_zakonczenia;
-	Skierowanie skierowanie;
+	Skierowanie* skierowanie;
 
 public:
 	Wizyta();
@@ -35,31 +35,31 @@ public:
 
 	void setData_wizyty(int32_t data_wizyty);
 
-	Klient getKlient();
+	Klient* getKlient();
 
-	void setKlient(Klient klient);
+	void setKlient(Klient* klient);
 
-	Zwierze getZwierze();
+	Zwierze* getZwierze();
 
-	void setZwierze(Zwierze zwierze);
+	void setZwierze(Zwierze* zwierze);
 
-	Rachunek getRachunek();
+	Rachunek* getRachunek();
 
-	void setRachunek(Rachunek rachunek);
+	void setRachunek(Rachunek* rachunek);
 
-	Recepta getRecepta();
+	Recepta* getRecepta();
 
-	void setRecepta(Recepta recepta);
+	void setRecepta(Recepta* recepta);
 
-	Specjalista getSpecjalista();
+	Specjalista* getSpecjalista();
 
-	void setSpecjalista(Specjalista specjalista);
+	void setSpecjalista(Specjalista* specjalista);
 
 	int32_t getData_zakonczenia();
 
 	void setData_zakonczenia(int32_t data_zakonczenia);
 
-	Skierowanie getSkierowanie();
+	Skierowanie* getSkierowanie();
 
-	void setSkierowanie(Skierowanie skierowanie);
+	void setSkierowanie(Skierowanie* skierowanie);
 };

@@ -1,18 +1,18 @@
 #include "Karta_Pacjenta.h"
 
-Wizyta Karta_Pacjenta::getWizyty() {
+Wizyta* Karta_Pacjenta::getWizyty() {
 	return this->wizyty;
 }
 
-void Karta_Pacjenta::setWizyty(Wizyta wizyty) {
+void Karta_Pacjenta::setWizyty(Wizyta* wizyty) {
 	this->wizyty = wizyty;
 }
 
-Zwierze Karta_Pacjenta::getZwierze() {
+Zwierze* Karta_Pacjenta::getZwierze() {
 	return this->zwierze;
 }
 
-void Karta_Pacjenta::setZwierze(Zwierze zwierze) {
+void Karta_Pacjenta::setZwierze(Zwierze* zwierze) {
 	this->zwierze = zwierze;
 }
 

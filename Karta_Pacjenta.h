@@ -8,19 +8,19 @@ class Wizyta;
 class Karta_Pacjenta {
 
 private:
-	Wizyta wizyty;
-	Zwierze zwierze;
+	Wizyta* wizyty;
+	Zwierze* zwierze;
 	int32_t data_utworzenia;
 	std::string komentarz;
 
 public:
-	Wizyta getWizyty();
+	Wizyta* getWizyty();
 
-	void setWizyty(Wizyta wizyty);
+	void setWizyty(Wizyta* wizyty);
 
-	Zwierze getZwierze();
+	Zwierze* getZwierze();
 
-	void setZwierze(Zwierze zwierze);
+	void setZwierze(Zwierze* zwierze);
 
 	int32_t getData_utworzenia();
 

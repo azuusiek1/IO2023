@@ -1,11 +1,11 @@
 #include "Rachunek.h"
 #include "Klient.h"
 #include "Pracownik.h"
-Klient Rachunek::getKlient() {
+Klient* Rachunek::getKlient() {
 	return this->klient;
 }
 
-void Rachunek::setKlient(Klient klient) {
+void Rachunek::setKlient(Klient* klient) {
 	this->klient = klient;
 }
 
@@ -33,11 +33,11 @@ void Rachunek::setKwota(int32_t kwota) {
 	this->kwota = kwota;
 }
 
-Pracownik Rachunek::getWystawiajacy() {
+Pracownik* Rachunek::getWystawiajacy() {
 	return this->wystawiajacy;
 }
 
-void Rachunek::setWystawiajacy(Pracownik wystawiajacy) {
+void Rachunek::setWystawiajacy(Pracownik* wystawiajacy) {
 	this->wystawiajacy = wystawiajacy;
 }
 
