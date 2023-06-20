@@ -9,6 +9,7 @@
 #include <iomanip>
 #include <ctime>
 #include <time.h>
+#include <thread>
 std::time_t getUnixTimestamp(int day, int month, int year, int hour, int minute) {
     std::tm timeStruct = { 0 };
 
@@ -138,16 +139,17 @@ string unixTimeToHumanReadable(long int seconds)
 int32_t main()
 {
     std::shared_ptr<Klient> klient = std::make_shared<Klient>();
-
+    
     int32_t option = 0;
-    std::cout << "Wybierz opcje:\n 1: Dodaj uzytkownika \n 2. Lista uzytkownikow \n 3. (Uzytkownik) Moje zwierzeta \n 4. (Uzytkownik) Dodaj zwierze\nWprowadz opcje: ";
+    std::cout << "Wybierz opcje:\n 1: Dodaj uzytkownika \n 2. Lista uzytkownikow \n 3. (Uzytkownik) Moje zwierzeta \n 4. (Uzytkownik) Dodaj zwierze\n 5. Umow wizyte \n 6. Lista wizyt \n \nWprowadz opcje:  ";
     std::vector<Zwierze>* zwierzeta = new std::vector<Zwierze>();
     klient->setZwierzeta(zwierzeta);
     Zwierze zwierze = Zwierze();
+    std::vector<Wizyta> wizyty; 
     zwierze.setImie("Pusia");
     zwierze.setData_ur(getUnixTimestamp(30, 9, 1978, 14, 20));
     zwierzeta->push_back(zwierze);
-
+    // stworz nowego uzytkownika i wymysl jego dane
     std::vector<std::shared_ptr<Uzytkownik>> uzytkownicy;
     std::cin >> option;
     while (option != 0) {
@@ -255,6 +257,7 @@ int32_t main()
         }
         case 5:
         {
+
             std::time_t now = std::time(nullptr);
             std::tm timeinfo{};
 
@@ -264,16 +267,58 @@ int32_t main()
             int day = timeinfo.tm_mday;
             int month = timeinfo.tm_mon + 1;
             int year = timeinfo.tm_year + 1900;
+            std::cout << "Wybierz zwierze: " << std::endl;
+            uint32_t index = 0;
+            for(auto &zwierze : *zwierzeta) {
+                std::cout << index+1 << ". " << zwierze.getImie() << std::endl;
+            }
+            uint32_t wybraneZwierze;
+            std::cout << "Wprowadz numer zwierzecia: " << std::endl;
+            std::cin >> wybraneZwierze;
+            
+            if(wybraneZwierze < 1 && wybraneZwierze > zwierzeta->size()) {
+                std::cout << "Wybrane zwierze nie istnieje. Sproboj ponownie." << std::endl;
+                std::this_thread::sleep_for(std::chrono::milliseconds(1000));
+                break;
+            }
+            Zwierze* wybraneZwierzePointer = new Zwierze((*zwierzeta)[wybraneZwierze-1]);
 
-            std::cout << "Dostepne godziny: " << std::endl;
+            std::cout << "Dostepne terminy: " << std::endl;
+            std::vector<time_t> czasy;
             for (int i = day + 1; i < day + 5; i++) {
-                for (int j = 0; j < 5; j++)
-                    std::cout << unixTimeToHumanReadable(getUnixTimestamp(i, month, year, 10 + j, 0)) << std::endl;
+                for (int j = 0; j < 5; j++) {
+                    time_t godzina = getUnixTimestamp(i, month, year, 10 + j, 0);
+                    czasy.push_back(godzina);
+                    std::cout << czasy.size() << ". " << unixTimeToHumanReadable(godzina) << std::endl;                 
+                }
+            }
+            uint32_t choosen;
+            std::cout << "Wybierz date z powyzszych mozliwych: ";
+            std::cin >> choosen;
+            
+            if(choosen-1 <= 0 || choosen-1 > czasy.size()) {
+                std::cout << "Wybrany termin nie istnieje. Sproboj ponownie." << std::endl;
+                std::this_thread::sleep_for(std::chrono::milliseconds(1000));
+                break;
+            }
+            auto czas = czasy[choosen-1];
+            std::cout << "Lekarz zaakceptowal wizyte. Twoja wizyta z zwierzakiem " << wybraneZwierzePointer->getImie() << " odbedzie sie " << unixTimeToHumanReadable(czas) << std::endl;
+            Wizyta wizyta;
+            wizyta.setKlient(klient.get());
+            wizyta.setData_wizyty(czas);
+            wizyta.setZwierze(wybraneZwierzePointer);
+            wizyty.push_back(wizyta);
+            break;
+        }
+        case 6: {
+            for(auto &wizyta : wizyty) {
+                std::cout << "Wizyta " << wizyta.getZwierze()->getImie() << " odbedzie sie " << unixTimeToHumanReadable(wizyta.getData_wizyty()) << std::endl;
             }
             break;
         }
-        }
-        std::cout << "Wybierz opcje:\n 1: Dodaj uzytkownika \n 2. Lista uzytkownikow \n 3. (Uzytkownik) Moje zwierzeta \n 4. (Uzytkownik) Dodaj zwierze\nWprowadz opcje: ";
+    }
+        //option = -1;
+        std::cout << "Wybierz opcje:\n 1: Dodaj uzytkownika \n 2. Lista uzytkownikow \n 3. (Uzytkownik) Moje zwierzeta \n 4. (Uzytkownik) Dodaj zwierze\n 5. Umow wizyte \n 6. Lista wizyt \nWprowadz opcje: ";
         std::cin >> option;
     }
 }

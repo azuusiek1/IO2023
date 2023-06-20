@@ -1,0 +1,3 @@
+C:/Users/azuus/Desktop/GIT IO/IO2023/build/CMakeFiles/Prototyp.dir
+C:/Users/azuus/Desktop/GIT IO/IO2023/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/azuus/Desktop/GIT IO/IO2023/build/CMakeFiles/ZERO_CHECK.dir

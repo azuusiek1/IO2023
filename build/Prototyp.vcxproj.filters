@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\azuus\Desktop\GIT IO\IO2023\sources\Administrator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\azuus\Desktop\GIT IO\IO2023\sources\Karta_Pacjenta.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\azuus\Desktop\GIT IO\IO2023\sources\Klient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\azuus\Desktop\GIT IO\IO2023\sources\Magazyn.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\azuus\Desktop\GIT IO\IO2023\sources\Pozycja_Magazynowa.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\azuus\Desktop\GIT IO\IO2023\sources\Pracownik.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\azuus\Desktop\GIT IO\IO2023\sources\Rachunek.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\azuus\Desktop\GIT IO\IO2023\sources\Recepta.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\azuus\Desktop\GIT IO\IO2023\sources\Skierowanie.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\azuus\Desktop\GIT IO\IO2023\sources\Specjalista.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\azuus\Desktop\GIT IO\IO2023\sources\Uzytkownik.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\azuus\Desktop\GIT IO\IO2023\sources\Wizyta.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\azuus\Desktop\GIT IO\IO2023\sources\Zwierze.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\azuus\Desktop\GIT IO\IO2023\sources\kod.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\azuus\Desktop\GIT IO\IO2023\sources\Administrator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\azuus\Desktop\GIT IO\IO2023\sources\Karta_Pacjenta.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\azuus\Desktop\GIT IO\IO2023\sources\Klient.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\azuus\Desktop\GIT IO\IO2023\sources\Magazyn.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\azuus\Desktop\GIT IO\IO2023\sources\Pozycja_Magazynowa.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\azuus\Desktop\GIT IO\IO2023\sources\Pracownik.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\azuus\Desktop\GIT IO\IO2023\sources\Rachunek.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\azuus\Desktop\GIT IO\IO2023\sources\Recepta.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\azuus\Desktop\GIT IO\IO2023\sources\Skierowanie.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\azuus\Desktop\GIT IO\IO2023\sources\Specjalista.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\azuus\Desktop\GIT IO\IO2023\sources\Uzytkownik.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\azuus\Desktop\GIT IO\IO2023\sources\Wizyta.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\azuus\Desktop\GIT IO\IO2023\sources\Zwierze.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\azuus\Desktop\GIT IO\IO2023\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{5ACCABCB-C202-3ED3-AD96-C55BAB06006E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{59EBCDDA-C573-39AE-B629-2950FDD2699F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

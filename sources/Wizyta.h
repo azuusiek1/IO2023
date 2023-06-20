@@ -26,7 +26,7 @@ private:
 	Skierowanie* skierowanie;
 
 public:
-	Wizyta();
+	//Wizyta() {}
 	void getId();
 
 	void setId(int32_t id);
